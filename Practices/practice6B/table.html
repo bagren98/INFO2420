@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+
+<meta charset="UTF-8">
+	
+<title>HTML Practice 6 - Tables</title>
+
+<style type="text/css">
+table {
+margin: auto;
+width: 550px;
+border: solid 1px;
+border-spacing: 3px;
+}
+div.center { 
+text-align: center;
+}
+td, th {
+text-align: center;
+border: solid 1px;
+}
+.main {
+width: 25%;
+background-color: #CCCCCC;
+font-weight: bold;
+}
+.days {
+width: 15%;
+}
+caption {
+color: #003300;
+font-size: 16px;
+font-weight: bold;
+font-family: arial;
+}
+.day {
+background-color: #99FF66;
+}
+</style>
+</head>
+
+
+<body>
+<div class="center">
+   <table>
+   <caption>My Class Schedule</caption>
+   <colgroup class="main" span="1"></colgroup>
+   <colgroup class="days" span="5"></colgroup>
+	<tr><th>Courses</th><th class="day">Monday</th><th class="day">Tuesday</th><th class="day">Wednesday</th><th class="day">Thursday</th><th class="day">Friday</th></tr>
+	<tr><th>INFO 1120</th><td>&nbsp;</td><td>9-11</td><td>&nbsp;</td><td>9-11</td><td rowspan="2">&nbsp;</td></tr>
+	<tr><th>MATH 1010</th><td colspan="4">12-1</td></tr>
+	<tr><th>INFO 2420</th><td colspan="5">Online Available 24/7</td></tr>
+   </table>
+</div>
+
+
+
+</body>
+</html>
+
