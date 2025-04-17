@@ -5,10 +5,10 @@ var	logo1 = new Image
 var	logo2 = new Image
 
 if (document.images) {
-	PrintButton1.src = "Images/PrintButton1.png"
-	PrintButton2.src = "Images/PrintButton2.png"
-	logo1.src = "Images/logo1.jpg"
-	logo2.src = "Images/logo2.png"
+	PrintButton1.src = "images/PrintButton1.png"
+	PrintButton2.src = "images/PrintButton2.png"
+	logo1.src = "images/logo1.jpg"
+	logo2.src = "images/logo2.png"
 }
 
 
@@ -30,7 +30,7 @@ if (document.images) {
 			
 		);
 			
-		var imgPath = "Images/Fullsize/";
+		var imgPath = "images/Fullsize/";
 		
 		function swapImage(imgID) {
 
