@@ -1,0 +1,183 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	color: #120900;
+	background-color: #FFE5B9;
+	font-family: helvetica, serif;
+	font-size: 100%;
+}
+
+@font-face {
+font-family: "petfont";
+src: url("fonts/ennobled_pet.otf") format('opentype');
+font-weight: normal;
+font-style: normal;
+}
+
+header {
+	width: 900px;
+	height: 225px;
+	background-color: #FFE5B9;
+	text-align: center;
+	border: none;
+	margin: auto;
+}
+
+section {
+	width: 900px;
+/*	background-image: url("images/2colback.png");*/
+	background-color: #ABDCEB;
+/*	background-repeat: repeat-y;*/
+	overflow: hidden;
+	border-right: none;
+	border-left: none;
+	margin: auto;
+}
+p {
+	text-align: left;
+	padding-left: 20px;
+	color: #120900;
+}
+nav {
+	width: 900px;
+	height: 75px;
+	padding-left: 0px;
+}
+nav a {
+	border: 2px inset #A73800;
+	color: #A73800;
+	background-color: #FFD692;
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: bold;
+
+}
+nav a:hover{
+	border: 2px inset #EF651E;
+	color: #EF651E;
+}
+
+nav a:active{
+	border: 2px inset #EF651E;
+	color: #538A99;
+}
+nav a:visited{
+	border: 2px inset #A73800;
+	color: #023F50;
+}
+
+article {
+/*	float: left;*/
+	width: 800px;
+	padding: 0px;
+	text-align: center;
+	margin: auto;
+}
+
+footer {
+	text-align: center;
+	width: 900px;
+	height: 70px;
+	border: none;
+	background-color: #FFD692;
+	margin: auto;
+	font-size: 9px;
+	font-weight: bold;
+	padding-top: 15px;
+}
+
+h1 {
+	color: #A73800;
+	text-align: center;
+}
+h2 {
+	color: #A73800;
+	text-align: center;
+}
+h3 {
+	color: #A73800;
+	text-align: center;
+}
+h5 {
+	color: #025168;
+	text-align: center;
+}
+ol {
+	color: #A76800;
+	text-align: left;
+}
+ul {
+	color: #A76800;
+	text-align: left;
+}
+a:link {
+	color: #023F50;
+}
+a:hover {
+	color: #538A99;
+}
+a:active {
+	color: #A73800;
+}
+a:visited {
+	color: #EF651E;
+}
+.imageleft{
+float: left;
+padding-right: 25px;
+padding-bottom: 25px;
+padding-left: 25px;
+border-radius: 5px;
+
+}
+.imageright{
+float: right;
+padding-left: 10px;
+}
+.logo{
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+.banner{
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+.thumbs img {
+	width: 100px;
+	height: auto;
+	border-radius: 5px;
+}
+.tributepic img {
+	padding-bottom: 25px;
+	padding-left: 25px;
+	border-radius: 5px;
+}
+table {
+background-color: #FFE5B9;
+width: 100%;
+border: 2px solid;
+border-radius: 10px;
+}
+td, th {
+border: solid 1px;
+text-align: center;
+padding: 2px;
+}
+.animal {
+background-color: #FFD692;
+width: 10%;
+}
+.tablehead {
+background-color: #FFD692;
+color: #802B00;
+font-size: 18px;
+padding: 3px;
+}
+caption {
+color: #023F50;
+font-family: "petfont";
+font-size: 38px;
+}
+.data {
+font-weight: bold;
+}
